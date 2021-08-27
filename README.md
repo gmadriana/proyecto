@@ -17,30 +17,36 @@ Este programa es un generador de playlists de 15 o 30 canciones, dependiendo de 
 ### algoritmo
 
 """
-lista pre seleccionada de canciones, dividida
+listas pre seleccionada de canciones, dividida en género
 """
+lista1("15 canciones de rock"
+lista2("15 canciones de electrónica"
+lista3("15 canciones de pop"
+lista4("15 canciones de reggaeton"
+lista5("15 canciones de rap"
+
 
 E0: pedir el género que escucha (1-rock, 2-electrónica, 3-pop, 4-reggaetón, 5-rap)
 	
   Si género==1
 	
-    EP(regresar *lista de 15 canciones de rock*)
+    EP(regresar lista)
 	
   Si género==2
 	  
-    EP(regresar *lista de 15 canciones de electrónica*)
+    EP(regresar lista 2)
 	
   Si género==3
 	  
-    EP(regresar *lista de 15 canciones de pop*)
+    EP(regresar lista 3)
 	
   Si género==4
 	  
-    EP(regresar *lista de 15 canciones de reggaetón*)
+    EP(regresar lista 4)
 	
   Si género==5
 	  
-    EP(regresar *lista de 15 canciones de rap*)
+    EP(regresar lista 5)
 	
   Si no
 	  
