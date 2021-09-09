@@ -5,16 +5,60 @@ el programa crea una playlist de 15 canciones o más
 de acuerdo con el o los géneros que más le guste
 escuchar a quien decida correrlo.
 """
+#funciones
 
+def otro():
+    """
+    (uso de funciones)
+    determina si se debe repetir el programa o no
+    """
+    otro="si"
+def genero():
+    """
+    (uso de funciones)
+    determina el genero que el usuario desea escuchar en su nueva playlist
+    """
+    genero=int(input())
 #listas
+
+def lista1():
+    """
+    (archivo de texto)
+    abre la playlist dependiendo del género elegido
+    """
+    lista1=open("rock.txt",'r')
+def lista2():
+    """
+    (archivo de texto)
+    abre la playlist dependiendo del género elegido
+    """
+    lista2=open("electronica.txt",'r')
+def lista3():
+    """
+    (archivo de texto)
+    abre la playlist dependiendo del género elegido
+    """
+    lista3=open("pop.txt",'r')
+def lista4():
+    """
+    (archivo de texto)
+    abre la playlist dependiendo del género elegido
+    """
+    lista4=open("reggaeton.txt",'r')
+def lista5():
+    """
+    (archivo de texto)
+    abre la playlist dependiendo del género elegido
+    """
+    lista5=open("rap.txt",'r')
+
+#programa
 
 lista1=open("rock.txt",'r')
 lista2=open("electronica.txt",'r')
 lista3=open("pop.txt",'r')
 lista4=open("reggaeton.txt",'r')
 lista5=open("rap.txt",'r')
-
-#inicio
 
 otro="si"
 while otro=="si":
