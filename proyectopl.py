@@ -73,7 +73,10 @@ while otro=="si":
         print("tu playlist es:",lista4.read())
     if genero==5:
         print("tu playlist es:",lista5.read())
+    if genero!=(1,5):
+        print("no contamos con ese género aún")
     otro=input("qieres otra playlist (si,no)?")
+
 else:
     if otro=="no":
         print("espero te haya gustado tu playlist:)")
