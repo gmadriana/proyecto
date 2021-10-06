@@ -62,7 +62,9 @@ lista5=open("rap.txt",'r')
 
 otro="si"
 while otro=="si":
-    genero=int(input("¡hola! ¿qué genero musical prefieres: 1-rock, 2-electrónica, 3-pop, 4-reggaton o 5-rap? (teclea el numero)"))
+    genero=int(input("¡hola! ¿qué genero musical prefieres: 1-rock, 2-electrónica, 3-pop, 4-reggaton o 5-rap? (escribe el número)"))
+    if genero!=(1,5):
+        print("no contamos con ese género aún, intenta de nuevo (:")
     if genero==1:
         print("tu playlist es:",lista1.read())
     if genero==2:
@@ -73,10 +75,8 @@ while otro=="si":
         print("tu playlist es:",lista4.read())
     if genero==5:
         print("tu playlist es:",lista5.read())
-    if genero!=(1,5):
-        print("no contamos con ese género aún")
     otro=input("qieres otra playlist (si,no)?")
 
 else:
     if otro=="no":
-        print("espero te haya gustado tu playlist:)")
+        print("espero te haya gustado tu playlist (:")
