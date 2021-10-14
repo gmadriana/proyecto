@@ -35,13 +35,21 @@ matriz con la lista pre seleccionada de canciones, dividida en género
 E0: pedir el género que escucha (rock, electrónica, pop, reggaetón, rap)
 	
   función(matriz,genero):
+  
   	indice=0
+	
   	tamaño=len(matriz)
+	
   	para i in range(tamaño):
+	
   		si matriz[i][0]==genero:
+		
 			indice=i
+			
  	EP(matriz[indice][1:(len(matriz)-1)])
+	
  		si no
+		
 	EP(regresar “aún no cuento con ese género”)
 
 Preguntar si desea repetir el programa
