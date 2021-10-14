@@ -1,0 +1,51 @@
+
+================== Adriana Gutiérrez A01747176 correcciones de proyecto ==================
+
+======================================== Error 1 =========================================
+
+Sub-Competencia:
+	Separa el código en funciones pequeñas reusables, haciendo uso correcto de paso por parámetros y return
+
+Error Original: Mi código no contaba con funciones y todo mi código estaba amontonado en el main
+
+Cambio realizado: Generé las siguientes funciones que ahora forman parte del main
+	def genero()
+	def obten_playlist(playlists, genero_elegido)
+
+Líneas de código donde se ve la corrección: 11 a 18
+
+======================================== Error 2 =========================================
+
+Sub-Competencia:
+	 Componente: usa la forma más a apropiada al problema para guardar los datos (listas, variable, tipo de dato, etc...)
+
+Error Original: Mi código no contaba con listas ni matrices
+
+Cambio realizado: Incorporé la siguiente matriz a mi código y modifiqué las listas que se encontraban en archivos extra
+	   playlists=[["rock", "1.canción", "...", "15.canción"],
+		      ["electronica", "1.canción", "...", "15.canción"],
+		      ["pop", "1.canción", "...", "15.canción"],
+		      ["reggaeton", "1.canción", "...", "15.canción"],
+		      ["rap", "1.canción", "...", "15.canción"],
+
+    obten_playlist(playlists, genero_elegido)
+
+Líneas de código donde se ve la corrección: 43 a 49
+
+======================================== Error 3 =========================================
+
+Sub-Competencia:
+	El proyecto no contiene código que no se usa en comentarios, ni archivos extra en el repositorio (Final)
+
+Error Original: Mi código contaba con listas que eran archivos extra en el repositorio
+
+Cambio realizado: Eliminé los archivos de las listas y los cambié por la siguiente matriz
+	   playlists=[["rock", "1.canción", "...", "15.canción"],
+		      ["electronica", "1.canción", "...", "15.canción"],
+		      ["pop", "1.canción", "...", "15.canción"],
+		      ["reggaeton", "1.canción", "...", "15.canción"],
+		      ["rap", "1.canción", "...", "15.canción"],
+
+    obten_playlist(playlists, genero_elegido)
+
+Líneas de código donde se ve la corrección: 43 a 49
