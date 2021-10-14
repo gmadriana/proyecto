@@ -22,9 +22,13 @@ matriz con la lista pre seleccionada de canciones, dividida en género
 
 
 [["rock","cancion1", ... , "canción15"],
+
 ["electrónica","cancion1", ... , "canción15"],
+
 ["pop","cancion1", ... , "canción15"],
+
 ["reggaetón","cancion1", ... , "canción15"],
+
 ["rap","cancion1", ... , "canción15"]]
 
 
