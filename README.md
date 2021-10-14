@@ -19,6 +19,8 @@ Este programa es un generador de playlists de 15 o 30 canciones, dependiendo de 
 """
 matriz con la lista pre seleccionada de canciones, dividida en género
 """
+
+
 [["rock","cancion1", ... , "canción15"],
 ["electrónica","cancion1", ... , "canción15"],
 ["pop","cancion1", ... , "canción15"],
