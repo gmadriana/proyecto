@@ -1,6 +1,38 @@
 
 ================== Adriana Gutiérrez A01747176 correcciones de proyecto ==================
 
+
+>>>>>>>>>>>>>>>>> Nuevas correcciones: entrega del 21 de octubre de 2021 <<<<<<<<<<<<<<<<<
+
+======================================== Error 1 =========================================
+
+Sub-Competencia:
+	El estilo cumple con las normas y estándares enunciadas en el documento de PEP 8
+
+Error Original: Los comentarios en el pep 8 de mi código no especificaban parámetros ni return. 
+
+Cambio realizado: Agregué los siguientes elementos faltantes al pep 8
+
+    """
+    (uso de funciones)
+    recibe: rock (texto), electronica (texto), pop (texto), reggaeton (texto),
+    rap (texto)
+    determina el genero que el usuario desea escuchar en su nueva playlist
+    devuelve: el nombre del género para la realización de la playlist
+    """
+
+    """
+    (uso de funciones/matrices)
+    recibe: playlists (matriz con las canciones de todas las playlists),
+    genero_elegido (el género obtenido con la función "genero()")
+    elige la playlist dependiendo del género ingresado
+    devuelve: la playlist que había sido creada para el género elegido
+    """
+
+Líneas de código donde se ve la corrección: 13 a 19 y 23 a 29
+
+>>>>>>>>>>>>>>> Correcciones anteriores: entrega del 15 de octubre de 2021 <<<<<<<<<<<<<<<
+
 ======================================== Error 1 =========================================
 
 Sub-Competencia:

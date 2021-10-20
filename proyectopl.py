@@ -1,9 +1,10 @@
 """
 proyecto python
 generador de playlist
-el programa crea una playlist de 15 canciones o más
-de acuerdo con el o los géneros que más le guste
-escuchar a quien decida correrlo.
+el programa crea una playlist de 15 canciones de
+acuerdo con el o los géneros que más le guste
+escuchar al usuario, además de que se puede repetir
+las veces que este lo desee.
 """
 
 #funciones
@@ -11,14 +12,20 @@ escuchar a quien decida correrlo.
 def genero():
     """
     (uso de funciones)
+    recibe: rock (texto), electronica (texto), pop (texto), reggaeton (texto),
+    rap (texto)
     determina el genero que el usuario desea escuchar en su nueva playlist
+    devuelve: el nombre del género para la realización de la playlist
     """
     genero=input("¡hola! ¿qué genero musical prefieres: rock, electronica, pop, reggaton o rap?")
     return genero
 def obten_playlist(playlists, genero_elegido):
     """
     (uso de funciones/matrices)
-    te despliega la playlist deseada dependiendo del género seleccionado
+    recibe: playlists (matriz con las canciones de todas las playlists),
+    genero_elegido (el género obtenido con la función "genero()")
+    elige la playlist dependiendo del género ingresado
+    devuelve: la playlist que había sido creada para el género elegido
     """
     genero_playlist=[]
     genero_playlist.append(genero_elegido)
@@ -33,7 +40,7 @@ def obten_playlist(playlists, genero_elegido):
     else:
         for i in range(len(playlists[locacion])-1):
             playlist_final.append(playlists[locacion][i+1])
-    print(playlist_final)
+        print(playlist_final, '\n')
     
 #programa
 
