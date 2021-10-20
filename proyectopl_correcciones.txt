@@ -44,7 +44,7 @@ Cambio realizado: Generé las siguientes funciones que ahora forman parte del ma
 	def genero()
 	def obten_playlist(playlists, genero_elegido)
 
-Líneas de código donde se ve la corrección: 11 a 18
+Líneas de código donde se ve la corrección: 12 a 22
 
 ======================================== Error 2 =========================================
 
@@ -62,7 +62,7 @@ Cambio realizado: Incorporé la siguiente matriz a mi código y modifiqué las l
 
     obten_playlist(playlists, genero_elegido)
 
-Líneas de código donde se ve la corrección: 43 a 49
+Líneas de código donde se ve la corrección: 50 a 56
 
 ======================================== Error 3 =========================================
 
@@ -80,4 +80,4 @@ Cambio realizado: Eliminé los archivos de las listas y los cambié por la sigui
 
     obten_playlist(playlists, genero_elegido)
 
-Líneas de código donde se ve la corrección: 43 a 49
+Líneas de código donde se ve la corrección: 50 a 56
