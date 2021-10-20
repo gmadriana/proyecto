@@ -7,6 +7,21 @@ escuchar al usuario, además de que se puede repetir
 las veces que este lo desee.
 """
 
+#función nueva
+
+"""
+pprint-impresión bonita de datos:
+este módulo permite «imprimir de forma bonita» estructuras de datos, lo
+que significa que mantiene los datos en una sola línea, haciendo más
+estética la salida del programa y facilitando la lectura de la misma.
+para utlizarla, primero se debe importar el "pprint" para después definir la
+lista que se quiere ordener, en este caso ya se tenía, así que sólo se necesitó
+mandar a llamar y, finalmente, insertar el pprint con el nombre de la lista que
+se desea imprimir.
+la función pprint se encuentra de la línea 59 a 62 del presente programa.
+Obtenida de: https://docs.python.org/es/3/library/pprint.html 
+"""
+
 #funciones
 
 def genero():
@@ -21,11 +36,12 @@ def genero():
     return genero
 def obten_playlist(playlists, genero_elegido):
     """
-    (uso de funciones/matrices)
+    (uso de funciones/matrices/pprint)
     recibe: playlists (matriz con las canciones de todas las playlists),
     genero_elegido (el género obtenido con la función "genero()")
     elige la playlist dependiendo del género ingresado
-    devuelve: la playlist que había sido creada para el género elegido
+    devuelve: la playlist que había sido creada para el género elegido y la
+    imprime de «forma bonita»
     """
     genero_playlist=[]
     genero_playlist.append(genero_elegido)
@@ -40,8 +56,11 @@ def obten_playlist(playlists, genero_elegido):
     else:
         for i in range(len(playlists[locacion])-1):
             playlist_final.append(playlists[locacion][i+1])
-        print(playlist_final, '\n')
-    
+    import pprint
+    playlists.insert(0, playlists[:])
+    pp=pprint.PrettyPrinter(indent=1)
+    pp.pprint(playlist_final)
+           
 #programa
 
 otro="si"

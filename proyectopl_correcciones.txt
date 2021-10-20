@@ -29,7 +29,23 @@ Cambio realizado: Agregué los siguientes elementos faltantes al pep 8
     devuelve: la playlist que había sido creada para el género elegido
     """
 
-Líneas de código donde se ve la corrección: 13 a 19 y 23 a 29
+Líneas de código donde se ve la corrección: 28 a 34 y 38 a 45
+
+======================================== Error 2 =========================================
+
+Sub-Competencia: 
+	Incorpora y explica nuevas funciones en su programe e incluya su referencias al API de python.
+
+Error Original: No había elemento extra en mi programa.
+
+Cambio realizado: Agregué la siguiente manera de utilizar el pprint en mi programa
+
+    import pprint
+    playlists.insert(0, playlists[:])
+    pp=pprint.PrettyPrinter(indent=1)
+    pp.pprint(playlist_final)
+
+Líneas de código donde se ve la corrección: 59 a 62
 
 >>>>>>>>>>>>>>> Correcciones anteriores: entrega del 15 de octubre de 2021 <<<<<<<<<<<<<<<
 
@@ -44,7 +60,7 @@ Cambio realizado: Generé las siguientes funciones que ahora forman parte del ma
 	def genero()
 	def obten_playlist(playlists, genero_elegido)
 
-Líneas de código donde se ve la corrección: 12 a 22
+Líneas de código donde se ve la corrección: 27 a 62
 
 ======================================== Error 2 =========================================
 
@@ -62,7 +78,7 @@ Cambio realizado: Incorporé la siguiente matriz a mi código y modifiqué las l
 
     obten_playlist(playlists, genero_elegido)
 
-Líneas de código donde se ve la corrección: 50 a 56
+Líneas de código donde se ve la corrección: 69 a 75
 
 ======================================== Error 3 =========================================
 
@@ -80,4 +96,4 @@ Cambio realizado: Eliminé los archivos de las listas y los cambié por la sigui
 
     obten_playlist(playlists, genero_elegido)
 
-Líneas de código donde se ve la corrección: 50 a 56
+Líneas de código donde se ve la corrección: 69 a 75
