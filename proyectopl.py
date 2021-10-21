@@ -15,7 +15,7 @@ este módulo permite «imprimir de forma bonita» estructuras de datos, lo
 que significa que mantiene los datos en una sola línea, haciendo más
 estética la salida del programa y facilitando la lectura de la misma.
 para utlizarla, primero se debe importar el "pprint" para después definir la
-lista que se quiere ordener, en este caso ya se tenía, así que sólo se necesitó
+lista que se quiere ordenar, en este caso ya se tenía, así que sólo se necesitó
 mandar a llamar y, finalmente, insertar el pprint con el nombre de la lista que
 se desea imprimir.
 la función pprint se encuentra de la línea 59 a 62 del presente programa.
