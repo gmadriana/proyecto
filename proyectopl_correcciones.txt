@@ -45,7 +45,7 @@ Cambio realizado: Agregué la siguiente manera de utilizar el pprint en mi progr
     pp=pprint.PrettyPrinter(indent=1)
     pp.pprint(playlist_final)
 
-Líneas de código donde se ve la corrección: 59 a 62
+Líneas de código donde se ve la corrección: 10 a 23 y 59 a 62
 
 >>>>>>>>>>>>>>> Correcciones anteriores: entrega del 15 de octubre de 2021 <<<<<<<<<<<<<<<
 
